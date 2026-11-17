@@ -1,16 +1,15 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "askposeidon",
-  "description": "Poseidon: winning e-commerce ads, measured.",
-  "owner": { "name": "Poseidon", "url": "https://askposeidon.app" },
+  "description": "Winning e-commerce ads, measured.",
+  "owner": {
+    "name": "Poseidon",
+    "url": "https://askposeidon.app"
+  },
   "plugins": [
     {
       "name": "poseidon",
       "source": "./",
-      "description": "Winning e-commerce ads from Meta's Ad Library, measured. MCP server + a skill that knows how to use it.",
-      "version": "1.0.0",
-      "category": "marketing",
-      "homepage": "https://askposeidon.app"
+      "category": "marketing"
     }
   ]
 }

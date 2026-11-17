@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "poseidon": {
+      "type": "http",
+      "url": "https://api.askposeidon.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}

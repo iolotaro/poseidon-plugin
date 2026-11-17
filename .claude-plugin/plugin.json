@@ -1,0 +1,31 @@
+{
+  "name": "poseidon",
+  "version": "1.0.0",
+  "description": "Winning e-commerce ads from Meta's Ad Library (EU and UK), measured: ranked winners, full scripts by section, weights per format and hook, brands' own A/B tests, and a competitor watchlist. Pay per use, 100 free credits per key.",
+  "author": {
+    "name": "Poseidon",
+    "url": "https://askposeidon.app"
+  },
+  "homepage": "https://askposeidon.app",
+  "keywords": [
+    "meta-ads",
+    "ad-library",
+    "ecommerce",
+    "creative-strategy",
+    "hooks",
+    "mcp"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Poseidon API key",
+      "description": "Your key (starts with psd_). Free key with 100 credits, no card: curl -X POST https://api.askposeidon.app/v1/keys -H 'Content-Type: application/json' -d '{\"email\":\"you@example.com\"}'. Buy credits at https://askposeidon.app/pricing.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "privacyPolicyUrl": "https://askposeidon.app/privacy",
+  "icon": ".claude-plugin/icon.png",
+  "license": "MIT",
+  "repository": "https://github.com/iolotaro/poseidon-plugin"
+}
